@@ -24,7 +24,7 @@ STEP 6: Use zscore of to remove outliers
 
 Developed by: KISHORE N
 REG NO. 212222240049
-```
+
 import pandas as pd
 df=pd.read_csv('/content/SAMPLEIDS.csv')
 df
@@ -53,7 +53,6 @@ df.dropna(axis=0)
 
 df.fillna(0)
 ![image](https://github.com/nkishore2210/exno1/assets/118707090/60d87784-efe3-4da3-82f8-6c8004aa693a)
-```
 
 # Result
 The data cleaning has beeen done successfully.
